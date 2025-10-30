@@ -1,0 +1,22 @@
+# =========================
+# Dependências Principais
+# =========================
+
+# Interface
+streamlit
+
+# Azure AI Document Intelligence
+azure-core
+azure-ai-documentintelligence
+azure-storage-blob
+
+# Variáveis de ambiente (.env)
+python-dotenv
+
+# =========================
+# Dependências do modo gratuito (OCR)
+# =========================
+pytesseract
+opencv-python-headless
+numpy
+requests

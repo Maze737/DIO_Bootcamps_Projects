@@ -1,0 +1,49 @@
+# ===========================
+# ARQUIVOS SENSÍVEIS E LOCAIS
+# ===========================
+
+# Arquivo de variáveis de ambiente (NUNCA versionar)
+.env
+
+# Pastas de configuração temporárias
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Logs e relatórios
+*.log
+logs/
+*.tmp
+
+# Arquivos temporários de editores (VS Code, etc.)
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ambiente virtual Python
+venv/
+env/
+.venv/
+
+# Cache do Streamlit
+.streamlit/
+
+# ===========================
+# ARQUIVOS DE DEPLOY E BUILDS
+# ===========================
+
+# Build do Docker
+*.bak
+*.old
+*.tar
+*.gz
+*.zip
+
+# Dependências locais
+node_modules/
+dist/
+build/
